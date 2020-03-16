@@ -1,0 +1,67 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;  
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+/* ------------- Inicio estilos Nav */
+
+.nav-left img{
+    width: 50%;
+    margin: 10%;
+}
+
+.nav-rigth{
+    padding: 1%;
+    display: flex;
+}
+
+.nav-social{
+    text-align: center top;
+    align-items: center top;
+    width: 170px;
+    display: flex;
+    margin-top: 3%;
+}
+
+.nav-social ul a i{
+    margin-left: 100%;
+}
+
+
+.nav-info{
+    padding: 3%;
+    width: 40%;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+}
+
+.item-info{
+    margin-bottom: 5%;
+}
+.nav-info img{
+    width: 50%;
+}
