@@ -1,67 +1,75 @@
-
-
-body{
+html {
     margin: 0;
-    padding: 0;
 }
 
-a{
+body {
+    margin: 0;
+    font-size: 13px;
+}
+
+a {
     text-decoration: none;
+    cursor: pointer;
     color: black;
 }
 
-li{
+li {
+    margin: 0 auto;
     list-style: none;
-}
-
-ul{
-    margin: 0;
     padding: 0;
 }
 
-header{
-    width: 100%;  
+/* ----------- Inicio Diseño del Nav */
+header {
+    margin: 0;
+    width: 100%;
+    height: 180px;
     display: flex;
-    justify-content: space-between; 
+    z-index: 10000;
+    position: fixed;
+    justify-content: space-between;
 }
 
-
-/* ------------- Inicio estilos Nav */
-
-.nav-left img{
-    width: 50%;
-    margin: 10%;
+.header-logo {
+    padding: 2%;
 }
 
-.nav-rigth{
-    padding: 1%;
-    display: flex;
-}
-
-.nav-social{
-    text-align: center top;
-    align-items: center top;
-    width: 170px;
-    display: flex;
-    margin-top: 3%;
-}
-
-.nav-social ul a i{
-    margin-left: 100%;
-}
-
-
-.nav-info{
-    padding: 3%;
-    width: 40%;
-    display: flexbox;
-    text-align: center;
-    align-items: center;
-}
-
-.item-info{
-    margin-bottom: 5%;
-}
-.nav-info img{
+.header-logo img {
     width: 50%;
 }
+
+nav {
+    display: flex;
+    padding: 2%;
+}
+
+.nav-redes {
+    display: flex;
+    margin-top: 22px;
+    margin-right: 80px;
+    padding-right: 1%;
+}
+
+.nav-redes li {
+    margin-left: 35%;
+}
+
+.nav-menu {
+    width: 180px;
+    text-align: right;
+    padding-right: 5%;
+    font-size: 24px;
+}
+
+.nav-menu li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+.nav-menu li a img {
+    margin: 10px;
+    width: 80%;
+}
+
+/* ---------- Fin diseño del Nav para Web */

@@ -1,0 +1,25 @@
+.main-section {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/FondoMain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin: 0;
+}
+
+.home {
+    width: 70%;
+    height: 50vh;
+    margin-top: 15%;
+    padding-top: 5%;
+    margin-left: 2.5%;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    background-image: url("../img/fondo-Home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
