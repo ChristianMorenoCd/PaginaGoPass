@@ -1,0 +1,28 @@
+.info-product{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+
+   width: 100%;
+   text-align: start;
+   margin: 2%;
+}
+
+.info-title{
+    margin-top: 25%;
+    font-size: 45px;
+}
+
+.info-description{
+    font-size: 24px;
+}
+
+.info-img{
+    text-align: center;
+    background-color: red;
+    padding-top: 18%;
+    padding-left: 15%;
+}

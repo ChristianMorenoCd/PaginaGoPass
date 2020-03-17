@@ -1,0 +1,36 @@
+.product{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/fondoSection.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    
+}
+
+.product .img-product{
+    text-align: center;
+    width: 100%;
+   
+}
+
+.product .img-product img{
+    width: 40%;
+}
+
+.descriptionProduct{
+    text-align: center;
+    font-size: 28px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.buttonTag{
+    text-align: center;
+   
+}
+.buttonTag a img{
+    width: 30%;
+}
