@@ -1,11 +1,15 @@
 .detalles{
-    max-width: 100%;
-    height: 100vh;
+    display: block;
     background-image: url("../img/WEB\ 2020\ GOPASS-26.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    font-size: 18px;
+    color: white;
+}
+
+#cardsProduct .img{
+  
+    width: 1%;
 }
 
 .detallesAll{
