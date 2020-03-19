@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/info.css">
     <link rel="stylesheet" href="css/detalles.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/prueba.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -43,89 +44,122 @@
         </nav>
     </header>
 
-    <section class="main-section">
-        <p>EL MEDIO DE PAGO AUTOMATICO SIN FILAS, SIN EFECTIVO.</p>
-    </section>
+    <section id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/FondoMain.png" alt="First slide">
+              </div>
+        
+            </div>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-11    fondo">
+                            <h1 class="textFrist">EL MEDIO DE PAGO AUTOMATICO SIN FILAS, SIN EFECTIVO</h1>
+                            <!-- <p class="d-none d-md-block">Platzicon llega a Hawaii Un evento para compartir con nuestra comunidad
+                                El conocimiento y nuestra experiencia de los experto que estan creando el futuro
+                                de platzi. Ven a conocer a los estudiantes de platzi y a los Oradores de primer nivel
+                                que tenemos para ti, Te Eperamos   
+                            </p> -->
+
+                            <!-- <a href="" class="btn btn-outline-light">Quiero Ser Orador</a>
+                            <button class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Comprar Tickets</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+    <!-- <section class="main-section" id="main">
+        <div class="overlay">
+            <div class="container">
+                <div class="row align-items-center">
+                 <div class="col-md-6">
+                     <h1 class="text-uppercase p-4">EL MEDIO DE PAGO AUTOMATICO SIN FILAS, SIN EFECTIVO.</h1>
+                 </div>
+                </div>
+            </div>
+        </div>
+      
+    </section> -->
 
     <section class="product">
-        <div class="img-product">
-            <img src="img/productoGoPass.png" alt="">
-        </div>
-        <div class="descriptionProduct">
-            <p>
-                GoPass, un ecosistema de movilidad diseñado especialmente para ti, podras pagara electronicamente los
-                peajes,
-                pagar el parqueadero de centro comerciales, actualizar tu SOAT y pagar el combustible de tu carro,
-                <br>
-                <strong>
-                    !Todo con un solo
-                    <span>TAG</span>
-                    !
-                </strong>
-            </p>
-
-        </div>
-        <div class="buttonTag">
-            <a href="#"><img src="img/AddTag.png" alt=""></a>
-        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 offset-md-3 align-items-center p-4">
+                    <img src="img/productoGoPass.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 col-sm-12 offset-md-2 text-center">
+                    <h3>GoPass, un ecosistema de movilidad diseñado especialmente para ti, podras pagara electronicamente los
+                        peajes, pagar el parqueadero de centro comerciales, actualizar tu SOAT y pagar el combustible de tu carro.</h3>
+                </div>
+                <div class="col-lg-4 col-sm-8 offset-sm-2 offset-md-4 align-items-center p-2">
+                    <a href="#"><img  class="img-fluid" src="img/AddTag.png" alt=""></a>
+                </div>
+            </div>
+        </div> 
     </section>
 
-    <section class="info-product">
-        <div class="info">
-            <div class="info-title">
-                <p>EL TAG QUE NO SOLO TE FUNCIONA PARA PAGAR LOS PEAJES</p>
-            </div>
-            <div class="info-description">
-                <p>En GoPass tienes un ecosistema de servicios a tu disposicion, olvidate de los papelitos cuando tenga
-                    que pagar el parqueadero del centro comercial,
-                    Ingresa y sol sin ningun problema, paga desde tu telefono el combustible de tu vehiculo o actualiza
-                    tu soat con un solo toque
-                </p>
+    <section class="info-product p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 p-4">
+                    <div class="">
+                        <h1 class="text-uppercase">EL TAG QUE NO SOLO TE FUNCIONA PARA PAGAR LOS PEAJES</h1>
+                    </div>
+                    <h3>En GoPass tienes un ecosistema de servicios a tu disposicion, olvidate de los papelitos cuando tenga
+                        que pagar el parqueadero del centro comercial,
+                        Ingresa y sol sin ningun problema, paga desde tu telefono el combustible de tu vehiculo o actualiza
+                        tu soat con un solo toque
+                    </h3>
+                </div>
+                <div class="col-lg-6 col-sm-12 ">
+                    <img src="img/fotoDescripcion.png" class="img-fluid" alt="">
+                </div>
             </div>
         </div>
-
-        <div class="info-img">
-            <img src="img/fotoDescripcion.png" alt="">
-        </div>
+       
     </section>
 
     <section class="detalles p-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card bg-transparent" id="cardsProduct">
-                        <img src="img/WEB 2020 GOPASS-15.png" class="card-img-top" width="50%" alt="">
+                    <div class="card bg-transparent align-items-center border-0" id="cardsProduct">
+                        <img src="img/WEB 2020 GOPASS-15.png" class="m-4" width="45%" alt="">
                         <div class="card-body">
                             <h3 class="card-title text-uppercase text-center">seguridad</h3>
-                            <h4 class="card-text">
+                            <h5 class="card-text">
                                 Tu seguridad es importante por eso con GoPass puedes realizar trasacciones sin tener
                                 efectivo ni
                                 contacto directo con tus tarjeta de credito evitendo clonaciones
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card bg-transparent">
-                        <img src="img/WEB 2020 GOPASS-16.png" class="card-img-top p-4" alt="">
+                    <div class="card bg-transparent align-items-center border-0">
+                        <img src="img/WEB 2020 GOPASS-16.png" class="m-3" width="85%" alt="">
                         <div class="card-body">
                             <h3 class="card-title text-uppercase text-center mt-4">confianza</h3>
-                            <h4 class="card-text">
+                            <h5 class="card-text">
                                 Todas tus trasacciones podras consultarlas desde la App dandote transparencia y soporte
                                 tecnico en
                                 los momentos que necesites
-                        </h4>
+                        </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card bg-transparent">
-                        <img src="img/WEB 2020 GOPASS-14.png" class="card-img-top" alt="">
+                    <div class="card bg-transparent align-items-center border-0">
+                        <img src="img/WEB 2020 GOPASS-14.png" class="" width="55%" alt="">
                         <div class="card-body">
                             <h3 class="card-title text-uppercase text-center">facilidad</h5>
-                            <h4 class="card-text">
+                            <h5 class="card-text">
                                 Todas las trasacciones del cosistema GoPass entan a un solo toque con tu telefono
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                 </div>
